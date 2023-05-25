@@ -1,0 +1,153 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+     background-color: white;
+    background-image:
+      radial-gradient(
+        circle at top right,
+         rgb(255,200,0),
+        #4047ff 50%
+      );
+    background-attachment: fixed;
+  color: white;
+  }
+  
+  .social-media{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    padding-right: 3.125em;
+    margin-left: 0;
+  }
+  
+  
+  
+  .nav-bar li, .footer li{
+    display: inline;
+     
+    margin: 1.25em;
+    text-align: center;
+    padding-left: 50px;
+    list-style-type: none;
+  }
+  
+   .top-movie{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(0,0,0);
+     color: white;
+   }
+  
+  .warner-100{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,200,0);
+    color: dodgerblue;
+    margin-bottom: 1.25em;
+  }
+  a{
+   text-decoration: none; 
+    color: rgb(255,255,255);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    text-decoration-color:  rgb(255,200,0);
+    box-shadow: 0.625em 1.25em 0.938em rgb(0,0,0);
+    background: none;
+    border: none;
+    transition: 0.3s;
+    letter-spacing: 0.3em;
+    
+    text-transform: uppercase;
+    
+  }
+  
+  .current-link{
+    color: rgb(255,255,19);
+    border: 0.063em solid rgb(255,255,19);
+     
+    padding: 0.3em;
+  }
+  
+  a:active{
+    color: rgb(255,255,19);
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  .nav-bar li{
+    margin-left: -0.5em;
+    
+  }
+
+ 
+  
+  
+  .nav-bar,.footer{
+    background-color: black;
+    color: rgb(255,255,255);
+    text-align: center;
+  }
+  
+  .responsive-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  .nav-logo,.upcoming-movies-image, .movies-shows-to-watch-image, .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  a .button-trailer:hover{
+    background-color: dodgerblue;
+  }
+  
+  .upcoming-movies-image img, .movies-shows-to-watch img{
+    height: 25em;
+    width: 16.875em;
+    margin-left: 2.188em;
+  }
+  
+  .social-media img{
+    height: 3.125em; 
+    width: 3.125em;
+  }
+  
+  .welcome{
+    
+    
+    font-family:  'Josefin Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    
+  }
+  
+  .top-movie, .nav-bar, .footer, .warner-100, .movies-shows-to-watch, .upcoming-movies{
+    width: 100%;
+  }
+  
+  .welcome h2, .warner-100 h2{
+    display: none;
+  }
+  

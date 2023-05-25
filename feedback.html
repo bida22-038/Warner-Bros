@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Home of Warner Bros Movies, TV Shows and Video Games including Harry Potter, DC Comics and more!">
+  <meta name="keywords" content="TV, movies,feedback, Warner Bros.">
+  <meta name="author" content="Mmopiemang Mmopiemang">
+  <title>Warner Bros.com | Feedback</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="Images/WBD-logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    .current-link{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(255,255,19);
+    font-weight: bolder;
+    letter-spacing: 0.3em;
+    
+  }
+      /* Form element CSS */
+  .text{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-form fieldset{
+  text-align: center;
+    margin: auto;
+    border: none;
+    
+    border-bottom: 1px dashed white;
+  }
+
+  form{
+background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+    
+   
+    width: 40%;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+  }
+  
+  /* End of Form element CSS */
+  
+  </style>
+
+
+</head>
+
+<body>
+  <main>
+
+    <nav class="nav-bar">
+      <div class="nav-logo">
+        <a href="index.html"><img src="Images/warner-bros-transparent.png" alt="Warner Bros. Logo"
+          height="75" width="60"></a>
+      </div>
+
+      <ul>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="tvshows.html">TV Shows</a></li>
+        <li><a href="games-and-apps.html">Games & Apps</a></li>
+        <li><a href="error-404.html">Brands</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="error-404.html">Shop</a></li>
+      </ul>
+    </nav>
+
+
+    <section>
+      <h2 style="text-align: center;">FEEDBACK FORM</h2>
+      <p style="text-align: center;">Thank you for taking the time in filling in the feedback form. We appreciate it if you
+        correctly and appropriately 
+        fill in all the required details in the form correctly and appropriately.</p>
+    </section>
+    <hr>
+
+      <form class="feedback-form" action="thank-you-page.html" method="post">
+      <fieldset>
+        
+        <label for="age" id="number-label">Age<input id="age" type="number" min="5" max="90" placeholder="Input age" style="width: 6em;" required></label><br><br>
+
+         <label for="dropdown">Choose your gender
+        <select id="dropdown">
+          <option>Select one</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Non-Binary</option>
+          <option>Cisgender</option>
+          <option>Agender</option>
+          <option>Transgender</option>
+          <option>Omnigender</option>
+          <option>Rather not say</option>
+        </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown-page">What is your favorite page in the website?
+        <select id="dropdown-page">
+          <option>Select one</option>
+          <option>Homepage</option>
+          <option>Movies</option>
+          <option>TV Shows</option>
+          <option>Games & Apps</option>
+          <option>Brands</option>
+          <option>Collections</option>
+          <option>Shop</option>
+          <option>Others</option>
+          <option>Neither</option>
+        </select>
+        </label><br><br>
+
+            <label for="choice-explain" class="text">If you chose "Neither" OR "Others", please elaborate on your choice.
+<textarea id="choice-explain" name="choice-explain" rows="10" cols="40" placeholder="Tell us all about it...."></textarea>
+        </label>
+        
+      </fieldset>
+
+      <fieldset>
+    
+
+ <label> Would you recommend your friends, family, or anyone else you know to visit the page? </label>
+        <label for="most-definitely"><input id="most-definitely" type="radio" value="1" name="answer">Most Definitely</label>
+        <label for="probably"><input id="probably" type="radio" value="2" name="answer">Probably</label>
+        <label for="never"><input id="never" type="radio" value="3" name="answer">Never</label><br><br>
+
+         <label for="suggest" class="text">Any other suggestions and thoughts you have about the website?
+<textarea id="suggest" name="suggest" rows="10" cols="50" placeholder="Tell us all about it...." required></textarea>
+        </label>
+        
+      </fieldset>
+
+      <fieldset style="display: flex; justify-content: center; align-items: center;">
+        <p style="text-align: center;">Hooray! You are almost done. Just tap or click the button below and you will be done. Once again, we appreciate your participation. ;) </p>
+        <button type="submit" id="submit">Submit</button>
+      </fieldset>
+      </form>
+      <hr>
+
+    <footer class="footer">
+
+      <ul>
+        <li><a href="movies-index.html">Movies Index</a></li>
+        <li><a href="error-404.html">TV Shows Index</a></li>
+        <li><a href="error-404.html">Games & Apps Index</a></li>
+        <li><a href="feedback.html" class="current-link">Feedback</a></li>
+        <li><a href="error-404.html">Collections Index</a></li>
+
+
+      </ul>
+
+      <ul class="social-media">
+        <li><a href="index.html"><img src="Images/warner-bros-transparent.png"
+              alt="Warner Bros. Logo" height="75" width="60"></a></li>
+        <li><a href="https://www.instagram.com/warnerbrosentertainment/" target="_blank"><img src="Images/instagram.png"
+              alt="Instagram"></a></li>
+        <li><a href="https://www.linkedin.com/company/warner-bros--entertainment/" target="_blank"><img
+              src="Images/linkedin.png" alt="Linkedin"></a></li>
+        <li><a href="https://twitter.com/Warnerbros/" target="_blank"><img src="Images/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.youtube.com/user/WarnerBrosPictures" target="_blank"><img src="Images/youtube.png"
+              alt="Youtube"></a></li>
+        <li><a href="https://web.facebook.com/warnerbrosent/?_rdc=1&_rdr" target="_blank"><img src="Images/facebook.png"
+              alt="Facebook"></a></li>
+      </ul>
+
+
+      <p style="text-align: center;">&copy; 2023 Warner Bros. &trade; Entertainment Inc. All rights reserved. <br>
+        <a href="#">Back To Top</a>
+      </p>
+
+    </footer>
+
+  </main>
+</body>
+
+</html>

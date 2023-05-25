@@ -1,0 +1,115 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+     background-color: dodgerblue;
+    background-image:
+      radial-gradient(
+        circle at top right,
+         rgb(255,200,0),
+        #4047ff 50%
+      );
+    background-attachment: fixed;
+  color: white;
+  }
+  
+  
+  .social-media{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    padding-right: 3.125em;
+    margin-left: 0;
+  }
+  
+  
+  
+  .nav-bar li, .footer li{
+    display: inline;
+     
+    margin: 1.25em;
+    text-align: center;
+    padding-left: 50px;
+    list-style-type: none;
+  }
+  
+  
+   a{
+   text-decoration: none; 
+    color: rgb(255,255,255);
+  }
+  
+  nav li  {
+    list-style-type: none;
+  }
+  
+
+    a:hover{
+        text-decoration: underline;
+         text-decoration-color:  rgb(255,200,0);
+         box-shadow: 10px 20px 15px rgb(0,0,0);
+         transition: 0.3s;
+         letter-spacing: 0.3em;
+         
+         text-transform: uppercase;
+         
+       }
+    
+
+  
+  .current-link{
+    color:  rgb(255,200,0);
+  }
+  
+  a:active{
+    color: rgb(255,255,19);
+  }
+  
+  .nav-bar,.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: rgb(255,255,255);
+    padding-right: -1.25px;
+  }
+  
+  .nav-bar {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+   }
+   .nav-bar li{
+    margin-left: -0.5em;
+  }
+  
+  
+  .nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  a .button-trailer:hover{
+    background-color: dodgerblue;
+  }
+  
+
+  .social-media img{
+    height: 3.125em; 
+    width: 3.125em;
+  }
+  
+  
+   .nav-bar, .footer {
+    width: 100%;
+  }
+  
+  

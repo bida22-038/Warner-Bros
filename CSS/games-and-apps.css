@@ -1,0 +1,118 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+   background-color: dodgerblue;
+  background-image:
+    radial-gradient(
+      circle at top,
+       rgb(255,200,0),
+      #4047ff 50%
+    );
+  background-attachment: fixed;
+color: white;
+}
+
+.social-media{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  padding-right: 50px;
+  margin-left: 0;
+}
+
+
+.nav-bar li, .footer li{
+  display: inline;
+   
+  margin: 20px;
+  text-align: center;
+  padding-left: 50px;
+  list-style-type: none;
+}
+
+ .top-games-apps{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(0,0,0);
+   color: white;
+ }
+
+.warner-news{
+  background-color: rgb(0,0,0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+a{
+ text-decoration: none; 
+  color: rgb(255,255,255);
+}
+
+.current-link{
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(255,255,255);
+  font-weight: bolder;
+  letter-spacing: 0.3em;
+}
+
+a:hover{
+text-decoration: underline;
+  text-decoration-color:  rgb(255,200,0);
+  box-shadow: 10px 20px 15px rgb(0,0,0);
+  transition: 0.3s;
+  letter-spacing: 0.3em;
+  
+  text-transform: uppercase;
+}
+
+
+a:active{
+  color: rgb(255,255,19);
+}
+
+.nav-bar,.footer{
+  background-color: black;
+  color: rgb(255,255,255);
+  padding-right: -20px;
+}
+
+.nav-bar {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+ }
+ .nav-bar li{
+  margin-left: -0.5em;
+}
+
+.nav-logo,.upcoming-games-apps-image, .games-to-download-image, .mobile-games-apps-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+a .button-trailer:hover{
+  background-color: dodgerblue;
+}
+
+.upcoming-games-apps-image img, .games-to-download-image img, .mobile-games-apps-image img{
+  height: 270PX;
+  width: 270px;
+  margin-left: 35px;
+}
+
+.social-media img{
+  height: 50px; 
+  width: 50px;
+}
